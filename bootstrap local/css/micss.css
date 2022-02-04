@@ -1,0 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.col:hover{
+    background-color: var(--bs-success);
+
+}
