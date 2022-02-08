@@ -5,7 +5,9 @@
     <title>Bootstrap</title>
     <!--Bootstrap local-->
     <link rel="stylesheet" href="./bootstrap local/css/bootstrap.css">
-    <link rel="stylesheet" href="./bootstrap local/css/micss.css"
+    <link rel="stylesheet" href="./bootstrap local/css/micss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
     <meta name="viewport" content="width=deice-width, initial-scale=1.0"/>
 
 </head>
@@ -13,25 +15,49 @@
     <header>
         <h1 class="display-1">Arquitectura</h1>
     </header>
-    <hr>
+    <hr> 
     <div class="container">
-        <div class="row row-cols-4 h5">
-          <div class="col text-info"><a href=index.html>Inicio</a></div>
-          <div class="col text-info"><a href=./pages/nosotros.html>Nosotros</a></div>
-          <div class="col text-info"><a href=./pages/desarrollos.html>Desarrollos</a></div>
-          <div class="col text-info"><a href=./pages/contacto.html>Contacto</a></div>
-        </div>
-      </div>
+        <!--nav bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="./pages/desarrollos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Proyectos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!--cierre nav bar-->
 
     <hr>
-    <img src="./img/edificios-verdes.jpg" class="img-fluid rounded mx-auto d-block" alt="...">
-    
+    <img src="https://gonzalobardach.com/wp-content/uploads/2020/10/02_V220_Proyecto_Destaada.jpg" class="img-fluid rounded mx-auto d-block animate__animated animate__bounce"">
 
 
     <p class=" text-success fw-normal text-center border h3">La Arquitectura sustentable o sostenible, es una forma de diseñar y construir obras de arquitectura satisfaciendo las necesidades de las generaciones presentes sin comprometer las posibilidades de las futuras.</p>
 
 <h2>CONTENEDORES</h2>
-
 
 
 

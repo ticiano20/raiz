@@ -84,11 +84,9 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-}
-
 hr {
   margin: 1rem 0;
-  color: inherit;
+  color: whitesmoke;
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
@@ -103,10 +101,12 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  
 }
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  font;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -495,6 +495,7 @@ progress {
   line-height: 1.2;
   text-align: center;
   color: var(--bs-success);
+  bold
 }
 @media (min-width: 1200px) {
   .display-1 {
@@ -600,7 +601,12 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  transition: heigth 3s, width 1s;
   
+}
+.img-fluid:hover{
+  height: 630px;
+  width: 870px;
 }
 
 .img-thumbnail {
@@ -673,8 +679,8 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
-  text-align:  center
-  transition: all ;
+  text-align:  center;
+  transition: all;
   
 }
 .row > * {
@@ -6704,8 +6710,8 @@ textarea.form-control-lg {
 
 .d-block {
   display: block !important;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 .d-grid {
