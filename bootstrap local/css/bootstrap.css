@@ -2665,6 +2665,7 @@ textarea.form-control-lg {
 
 .form-floating {
   position: relative;
+  width: 70%;
 }
 .form-floating > .form-control,
 .form-floating > .form-select {
@@ -2732,7 +2733,7 @@ textarea.form-control-lg {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  width: 100%;
+  width: 70%;
 }
 .input-group > .form-control,
 .input-group > .form-select {

@@ -6,3 +6,17 @@
     background-color: var(--bs-success);
 
 }
+.grid1{
+    display: grid; 
+    grid-template-columns: auto auto;
+    align-items: flex-start;
+
+}
+footer{
+    display: grid;
+    position: relative;
+}
+.google{
+    display: grid;
+    align-items: center;
+}
