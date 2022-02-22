@@ -1,0 +1,65 @@
+//Inicio SCSS
+/*Inicio CSS*/
+//-------------------------------------------
+@import "_mods";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    color: $titulos;
+}
+.col:hover{
+    background-color: var(--bs-success);
+
+}
+.grid1{
+    display: grid; 
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto ;
+    align-items: center;
+
+}
+footer{
+    display: grid;
+    position: relative;
+    
+}
+.google{
+    display: grid;
+    align-items: center;
+}
+.h3{
+        font-size: 25px;
+        margin: 5px;
+        padding: 5px;
+}
+.h5{
+    border-style: groove;
+    border:1px  solid white;
+    margin: 5px;
+    padding: 5px;
+    color: $parrafos;
+}
+@mixin mix {
+    color: $parrafos,
+    $fuente;
+    background-color: $bg;
+
+}
+
+ .cuadros{
+        margin-top: 50px;
+        padding:auto;
+        display:grid;
+        grid-template-columns: auto, auto, auto;
+        grid-template-rows: auto, auto, auto;
+        justify-content: space-between; 
+        .box-{
+            width:auto;
+            height:auto;
+            background-color: green;
+            @include mix;
+
+        }
+}
