@@ -4,16 +4,27 @@
   padding: 0%; }
 
 header {
-  color: 25, 135, 84; }
+  color: #198754; }
 
 .col:hover {
   background-color: var(--bs-success); }
 
 .grid1 {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  align-items: center; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: groove;
+  border: 3px solid black;
+  background-color: #198754; }
+  .grid1 #nombres {
+    width: 33%;
+    height: 33%; }
+  .grid1 #mail {
+    width: 33%;
+    height: 33%; }
+  .grid1 #texto {
+    width: 33%;
+    height: 33%; }
 
 footer {
   display: grid;
