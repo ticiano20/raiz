@@ -1114,7 +1114,7 @@ progress {
   }
 }
 @media (min-width: 768px) {
-  .col-md {
+    {
     flex: 1 0 0%;
   }
 
@@ -1185,6 +1185,10 @@ progress {
 
   .col-md-6 {
     flex: 0 0 auto;
+    width: 50%;
+  }
+  .col-md-66{
+    flex: auto 0 0;
     width: 50%;
   }
 
@@ -6425,6 +6429,7 @@ textarea.form-control-lg {
   content: "";
 }
 
+
 .link-primary {
   color: #0d6efd;
 }
@@ -6653,7 +6658,7 @@ textarea.form-control-lg {
   vertical-align: text-top !important;
 }
 
-.float-start {
+-start {
   float: left !important;
 }
 
@@ -9063,6 +9068,7 @@ textarea.form-control-lg {
   .ms-md-3 {
     margin-left: 1rem !important;
   }
+  
 
   .ms-md-4 {
     margin-left: 1.5rem !important;
