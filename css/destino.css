@@ -1,7 +1,7 @@
 /*Inicio CSS*/
 * {
-  margin: 0%;
-  padding: 0%; }
+  margin: 2px;
+  padding: 2px; }
 
 *::after {
   box-sizing: border-box; }
@@ -69,4 +69,15 @@ footer {
 
 .clear::after {
   display: block;
-  clear: left; }
+  clear: left;
+  content: "";
+}
+
+.primer{
+  margin: 2%;
+  padding: 2%;
+}
+
+.bajo{
+  align-content: flex-start;
+}
