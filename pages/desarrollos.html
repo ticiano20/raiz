@@ -2,10 +2,11 @@
 <html lang="es">
 
 <head>
-    <title>Bootstrap</title>
+    <title>Proyctos</title>
     <!--Bootstrap local-->
     <link rel="stylesheet" href="../bootstrap local/css/bootstrap.css">
     <link rel="stylesheet" href="../bootstrap local/css/micss.css">
+    <link rel="stylesheet" href="../css/destino.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
     <meta name="viewport" content="width=deice-width, initial-scale=1.0"/>
@@ -16,43 +17,77 @@
         <h1 class="display-1">Arquitectura</h1>
     </header>
     <hr> 
-    <div class="container">
         <!--nav bar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Menu</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">Arqui</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="desarrollos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Proyectos
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Conocé más
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="desarrollos.html">Desarrollos</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="desarrollos.html">Proyectos</a></li>
+                    <li><a class="dropdown-item" href="../pages/contacto.html">Contacto</a></li>
+                    <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled"></a>
+                </li>
               </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
             </div>
           </div>
         </nav>
+      
         <!--cierre nav bar-->
-
-
     <hr>
+    <div class="clearfix">
+      <img src="../img/casa barrio.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-resp" alt="FUNDADOR">
+    <p class="text-white h4">
+      Casa
+     </p>
+   
+     <p class="text-white h4">
+       El arquitecto tatata Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, modi expedita! At consequuntur iure aliquam fuga quas, odio nemo dicta ex, porro veniam omnis reprehenderit dolores amet est voluptate officiis.
+     </p>
+    </div>
+    <div class="clear">
+     <img src="../img/interior.jpg" class="col-md-66 float-md-start mb-3 ms-md-33 img-resp" alt="mision">
+      <p class="text-white h4">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non magnam error dolores aliquam repudiandae? Asperiores, sapiente possimus, quo alias sunt illum at dolorem consectetur recusandae ratione, officiis aspernatur voluptate nulla?</p>
+   </div>
+   <div class="clearfix">
+     <img src="../img/lago.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-resp" alt="vision">
+ 
+     <p class="text-white h4 bajo">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, modi expedita! At consequuntur iure aliquam fuga quas, odio nemo dicta ex, porro veniam omnis reprehenderit dolores amet est voluptate officiis.
+     </p>
+    </div>
+    <div class="clear">
+     <img src="../img/exterior.jpg" class="col-md-66 float-md-start mb-3 ms-md-33 img-resp" alt="valores">
+      <p class="text-white h4">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non magnam error dolores aliquam repudiandae? Asperiores, sapiente possimus, quo alias sunt illum at dolorem consectetur recusandae ratione, officiis aspernatur voluptate nulla?</p>
+   </div>
+
+
+
+
 <div class="cuadros">
       <div class="box-">Contacto:3516323789</div>
       <div class="box-">Mail:arqui.22@gmail.com</div>
@@ -60,7 +95,7 @@
     </div>
 
     
-<footer class="text-white text-center blockquote-footer ">Pie de pagina--- Eladobrado por: Marco Ticiano Barabino 2022</footer>
+<footer class="text-white text-center blockquote-footer">Pie de pagina--- Eladobrado por: Marco Ticiano Barabino 2022</footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>

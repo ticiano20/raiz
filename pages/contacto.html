@@ -15,43 +15,50 @@
         <h1 class="display-1">Contacto</h1>
     </header>
     <hr> 
-    <div class="container">
+    
         <!--nav bar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Arqui</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">Contacto</a>
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="../pages/desarrollos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Proyectos
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Conocé más
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../pages/desarrollos.html">Proyectos</a></li>
+                    <li><a class="dropdown-item" href="../pages/contacto.html">Contacto</a></li>
+                    <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled"></a>
+                </li>
               </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
             </div>
           </div>
         </nav>
+      
         <!--cierre nav bar-->
 
     <hr>
-    <img src="../img/543113-asi-funciona-google-maps-conexion-internet.jpg" class="img-fluid">
+    <div class="grid1">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.914428570937!2d-64.24021528515986!3d-31.361340500728993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329935b68e47bb%3A0x42ed7f6c1c2665fb!2zQXYuIFJhZmFlbCBOw7rDsWV6LCBDw7NyZG9iYQ!5e0!3m2!1ses!2sar!4v1646066836032!5m2!1ses!2sar" class="maps" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
      <!--Forms-->
     <form class="grid1">
       <input type="text" name="nombres" id="nombres" cols="40" rows= "15"placeholder="Nombre y Apellido"/>
@@ -59,6 +66,8 @@
       <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Dejanos tu consulta/duda. Saludos!!"></textarea>
       <input type="submit" value="Enviar" id="enviar"/>
     </form>
+    </div>
+  
      <!--Cierre forms-->
      <footer class="text-white text-center blockquote-footer container">
       <div class="cuadros">
